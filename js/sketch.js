@@ -3,6 +3,8 @@ var x = 0;
 function setup() {
 	var canvas = createCanvas(window.innerWidth, window.innerHeight);
 	canvas.parent('canvas-wrap');
+	smooth();
+	noStroke();
 }
 
 function draw() {

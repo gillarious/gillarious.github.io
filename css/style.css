@@ -6,22 +6,20 @@
 	padding-bottom: 85px;
 }
 #about {
-	background-color: white;
-	position: center;
+	text-align: center;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 30px;
 	padding-top: 140px;
 	padding-bottom: 85px;
 }
 #contact {
-	background-color: white;
-	position: center;
+	text-align: center;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 30px;
 	padding-top: 140px;
 	padding-bottom: 85px;
 }
-p {
+#projects {
 	text-align: center;
 }
 #canvas-wrap {
