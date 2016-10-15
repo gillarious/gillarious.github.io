@@ -1,7 +1,7 @@
 var x = 0;
 
 function setup() {
-	var canvas = createCanvas(1000, 1000);
+	var canvas = createCanvas(window.innerWidth, window.innerHeight);
 	canvas.parent('canvas-wrap');
 }
 
