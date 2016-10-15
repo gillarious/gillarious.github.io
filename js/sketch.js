@@ -3,7 +3,7 @@ var x = 0;
 function setup() {
 	var canvas = createCanvas(window.innerWidth, window.innerHeight);
 	canvas.parent('canvas-wrap');
-	background = #000;
+	background(100);
 }
 
 function draw() {
