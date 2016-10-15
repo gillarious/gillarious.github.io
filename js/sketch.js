@@ -8,8 +8,9 @@ function setup() {
 
 function draw() {
 	noStroke();
-	ellipse(x, height/2, 20, 20);
-	fill(1,22,44);
+	ellipse(x, height/2, 20, 20){
+		fill(1,22,44);
+	};
 	x = x + 1;
 }
 
