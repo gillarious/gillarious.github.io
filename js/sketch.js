@@ -4,10 +4,10 @@ function setup() {
 	var canvas = createCanvas(window.innerWidth, window.innerHeight);
 	canvas.parent('canvas-wrap');
 	smooth();
-	noStroke();
 }
 
 function draw() {
+	noStroke();
 	ellipse(x, height/2, 20, 20);
 	x = x + 1;
 }
