@@ -1,7 +1,7 @@
 var x = 0;
 
 function setup() {
-	var canvas = createCanvas(window.innerWidth, window.innerHeight);
+	var canvas = createCanvas(100%, 100%);
 	canvas.parent('canvas-wrap');
 	smooth();
 }
