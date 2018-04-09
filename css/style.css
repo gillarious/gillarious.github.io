@@ -6,6 +6,7 @@
 	padding-top: 100px;
 	padding-bottom: 150px;
 }
+
 #about {
 	text-align: center;
 	font-family: 'Work Sans', sans-serif;
@@ -14,6 +15,7 @@
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
+
 #contact {
 	text-align: center;
 	font-family: 'Work Sans', sans-serif;
@@ -22,17 +24,24 @@
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
+
 #projects {
 	text-align: center;
 }
+
 #canvas-wrap {
 	position:relative; 
 	width: 100%; 
 	height:100%; 
 }
+
 #canvas-wrap canvas {
 	position:absolute; 
 	top:0; 
 	left:0; 
 	z-index: -9999;
+}
+
+::selection {
+	background: #ffcccc;
 }
