@@ -45,3 +45,11 @@
 ::selection {
 	background: #ffcccc;
 }
+
+a:link {
+	color: #ffcccc;
+}
+
+a:hover {
+	color: #c97685;
+}
