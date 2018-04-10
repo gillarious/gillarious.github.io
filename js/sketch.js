@@ -2,13 +2,13 @@ var circles = [];
 var edge = 25;
 
 function setup() {
-	var canvas = createCanvas(windowWidth-edge, windowHeight);
+	var canvas = createCanvas(windowWidth-edge, windowHeight*3);
 	canvas.parent('canvas-wrap');
 	smooth();
 }
 
 function windowResized() {
-	resizeCanvas(windowWidth-edge, windowHeight);
+	resizeCanvas(windowWidth-edge, windowHeight*3);
 }
 
 var maxCircles = 500;
@@ -57,8 +57,8 @@ function Jitter() {
 			this.x = windowWidth-edge;
 			this.speedX *= -1;
 		}
-		if (this.y > windowHeight-edge){
-			this.y = windowHeight-edge;
+		if (this.y > (windowHeight*3)-edge){
+			this.y = (windowHeight*3)-edge;
 			this.speedY *= -1;
 		}
 		if (this.x < 0){
