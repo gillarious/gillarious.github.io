@@ -8,7 +8,7 @@ function setup() {
 }
 
 function windowResized() {
-	resizeCanvas(windowWidth-edge, windowHeight*3);
+	resizeCanvas(windowWidth-edge, windowHeight*5);
 }
 
 var maxCircles = 500;
