@@ -50,7 +50,7 @@ a:link {
 	color: #c97685;
 }
 
-@media only screen and (max-width: 812px){ 
+@media only screen and (max-width: 1000px){ 
   	#top {
   		font-size: 30px;
   	}
