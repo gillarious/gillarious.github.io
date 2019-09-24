@@ -18,6 +18,8 @@
 
 p.new_line {
 	line-height: 0.1em;
+	margin-top: 0em;
+    margin-bottom: 0em;
 }
 
 #contact {
@@ -27,6 +29,11 @@ p.new_line {
 	position: center;
 	padding-top: 150px;
 	padding-bottom: 150px;
+}
+
+p {
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 #canvas-wrap {
