@@ -25,10 +25,6 @@
 	padding-bottom: 150px;
 }
 
-#projects {
-	text-align: center;
-}
-
 #canvas-wrap {
 	position:relative; 
 	width: 100%; 
@@ -50,7 +46,7 @@ a:link {
 	color: #c97685;
 }
 
-@media only screen and (max-width: 1000px){ 
+@media only screen and (max-width: 1000px) { 
   	#top {
   		padding-top: 25px;
   		font-size: 25px;
