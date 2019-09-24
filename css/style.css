@@ -43,7 +43,8 @@
 }
 
 a:link {
-	color: #c97685;
+	/*color: #c97685;*/
+	color: transparent;
 }
 
 @media only screen and (max-width: 1000px) { 
