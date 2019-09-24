@@ -16,6 +16,10 @@
 	padding-bottom: 150px;
 }
 
+p.new_line {
+	line-height: 0.1em;
+}
+
 #contact {
 	text-align: center;
 	font-family: 'Work Sans', sans-serif;
