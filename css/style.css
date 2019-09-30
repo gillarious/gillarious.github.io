@@ -37,7 +37,7 @@ p {
 }
 
 img.nav {
-	margin-top: 0.25em;
+	margin-top: 0.5em;
 }
 
 #canvas-wrap {
@@ -54,7 +54,6 @@ img.nav {
 }
 
 ::selection {
-	/*background: #ffcccc;*/
 	background: transparent;
 }
 
