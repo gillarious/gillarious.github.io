@@ -44,9 +44,9 @@ function Jitter() {
  	this.diameter = random(15, 35);
  	this.speedX = random(-3, 3);
 	this.speedY = random(-3, 3);
-	this.myRed = 255;
-	this.myGreen = random(112, 198);
-	this.myBlue = 215;
+	this.myRed = 150;
+	this.myGreen = random(200, 255);
+	this.myBlue = random(0, 100);
 	this.myAlpha = random(0, 255);
 
 	this.move = function() {
