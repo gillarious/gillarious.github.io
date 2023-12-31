@@ -1,55 +1,52 @@
+@font-face {
+	font-family: myHandwriting;
+	src: url(../files/handwriting-regular.ttf);
+}
+
+p {
+	font-family: myHandwriting;
+	letter-spacing: 0.1em;
+	margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 #top {
-	font-family: 'Work Sans', sans-serif;
-	font-size: 45px;
+	font-size: 3rem;
 	text-align: center;
-	position: center;
 	padding-top: 100px;
 	padding-bottom: 150px;
 }
 
 #about {
 	text-align: center;
-	font-family: 'Work Sans', sans-serif;
-	font-size: 28px;
+	font-size: 2.5rem;
 	position: center;
 	padding-top: 150px;
 	padding-bottom: 150px;
-}
-
-p.new_line {
-	line-height: 0.1em;
-	margin-top: 0em;
-    margin-bottom: 0em;
 }
 
 #contact {
 	text-align: center;
-	font-family: 'Work Sans', sans-serif;
-	font-size: 28px;
+	font-size: 2.5rem;
 	position: center;
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 
-p {
-	margin-top: 0.5em;
-    margin-bottom: 0.5em;
-}
-
 img.nav {
-	margin-top: 0.5em;
+	margin-top: 0.6em;
 }
 
 #canvas-wrap {
-	position:relative; 
-	width: 100%; 
-	height:100%; 
+	position: relative;
+	width: 100%;
+	height: 100%;
 }
 
 #canvas-wrap canvas {
-	position:absolute; 
-	top:0; 
-	left:0; 
+	position: absolute;
+	top: 0;
+	left: 0;
 	z-index: -9999;
 }
 
@@ -58,10 +55,10 @@ img.nav {
 }
 
 a:link {
-	color: #96e21c;
+	color: #bada55;
 }
 
-@media only screen and (max-width: 1000px) { 
+@media only screen and (max-width: 1000px) {
   	#top {
   		padding-top: 25px;
   		font-size: 25px;
